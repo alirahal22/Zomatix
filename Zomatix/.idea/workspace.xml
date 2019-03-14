@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Organized Project">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jfoenix_9_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Controller/Manager/AddEmployeeViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Controller/Manager/AddItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Controller/Manager/AddItemIngredientNodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Controller/Manager/AddItemIngredientViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Controller/Manager/AddRestaurantController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Controller/Manager/ManagerComplaintsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Controller/Manager/ManagerEmployeeNodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Controller/Manager/ManagerEmployeesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/JFXOkayCancelDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Model/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Model/Database/TrackOrderTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Model/NotificationContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Model/Observer/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Model/Observer/OrderObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/View/Manager/add_employee_view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/View/Manager/add_item_ingredient_node.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/View/Manager/add_item_ingredient_view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/View/Manager/add_item_view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/View/Manager/add_restaurant_view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/View/Manager/complaints.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/View/Manager/manager_employee_node.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/View/Manager/manager_employees.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bbe34d20-d082-4dfb-a620-e306b69841df.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bbe34d20-d082-4dfb-a620-e306b69841df.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bbe34d20-d082-4dfb-a620-e306b69841df/storage_v2/_src_/schema/Restaurant.XScsDQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bbe34d20-d082-4dfb-a620-e306b69841df/storage_v2/_src_/schema/Restaurant.XScsDQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/activation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/controlsfx.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jfoenix.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Restaurant/sample/Model/objects/Complaint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Restaurant/sample/Model/objects/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Restaurant/sample/Model/objects/Deal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Restaurant/sample/Model/objects/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Restaurant/sample/Model/objects/MenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Restaurant/sample/Model/objects/MenuSection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Restaurant/sample/Model/objects/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Restaurant/sample/Model/objects/Restaurant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Restaurant/sample/Model/objects/ReviewRating.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Customer/ComplaintsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Customer/ComplaintsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Customer/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Customer/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Customer/IngredientNodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Customer/IngredientNodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Customer/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Customer/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Customer/MenuItemNodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Customer/MenuItemNodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Customer/MenuSectionNodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Customer/MenuSectionNodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Customer/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Customer/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Customer/RestaurantViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Customer/RestaurantViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Customer/RestaurantsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Customer/RestaurantsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Employee/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Employee/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Employee/PendingOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Employee/PendingOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Login/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Login/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Manager/CreateEmployeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Manager/ManagerMainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Manager/ManagerMainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Manager/ManagerRestaurantViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Manager/ManagerRestaurantViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller/Manager/ManagerRestaurantsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller/Manager/ManagerRestaurantsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/IngredientsPopUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/IngredientsPopUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Model/Database/CheckDatabaseTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Model/Database/CheckOrderTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Model/Database/DatabaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Model/Database/DatabaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Model/Objects/RestaurantComponents/Composite/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Model/Objects/RestaurantComponents/Composite/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Model/Objects/RestaurantComponents/Composite/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Model/Objects/RestaurantComponents/Composite/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Model/Objects/RestaurantComponents/Composite/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Model/Objects/RestaurantComponents/Composite/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Model/Objects/RestaurantComponents/MenuSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Model/Objects/RestaurantComponents/MenuSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Model/Objects/RestaurantComponents/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Model/Objects/RestaurantComponents/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Model/Objects/Users/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Model/Objects/Users/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Model/Objects/Users/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Model/Objects/Users/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Model/Objects/Users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Model/Objects/Users/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Model/Visitor/LoginVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Model/Visitor/LoginVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/View/Cells/DealCell/DealCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/Cells/DealCell/DealCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/View/Cells/OrderCell/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/Cells/OrderCell/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/View/Cells/OrderCell/OrderItemCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/Cells/OrderCell/OrderItemCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/View/Cells/RestaurantCell/RestaurantCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/Cells/RestaurantCell/RestaurantCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/View/Customer/complaints.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/Customer/complaints.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/View/Employee/active_order_node.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/Employee/active_order_node.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/View/Employee/delivering_order_node.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/Employee/delivering_order_node.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/View/Employee/pending_order_node.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/Employee/pending_order_node.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/View/Login/form_login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/Login/form_login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/View/Login/form_registration.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/Login/form_registration.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/View/Manager/manager_main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/Manager/manager_main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/View/Manager/manager_menu_section_node.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/Manager/manager_menu_section_node.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/View/Manager/manager_restaurant_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/Manager/manager_restaurant_view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/View/Manager/manager_restaurants.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/Manager/manager_restaurants.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/View/Nodes/ingredient_node.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/Nodes/ingredient_node.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/View/Nodes/ingredients_popup.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/Nodes/ingredients_popup.fxml" afterDir="false" />
+    </list>
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Restaurant@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Restaurant@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Restaurant@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Restaurant: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Restaurant@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Restaurant: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controller/Customer/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="169" selection-start-line="169" selection-end-line="169" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Model/Authentication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="208" column="9" lean-forward="true" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#encryptPassword#0;class#Authentication#0" />
+                <element signature="method#availableUsername#0;class#Authentication#0" />
+                <element signature="method#verifyEmployee#0;class#Authentication#0" />
+                <element signature="method#verifyManager#0;class#Authentication#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controller/Login/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="63" column="50" lean-forward="true" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controller/Customer/ComplaintsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="125" column="12" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controller/Customer/IngredientNodeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/IngredientsPopUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+              <folding>
+                <element signature="method#IngredientsPopUp#0;class#IngredientsPopUp#0" />
+                <element signature="method#onToggleButtonChangeListener#0;class#IngredientsPopUp#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/View/Login/form_registration.fxml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Model/Database/CheckOrderTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Model/Database/DatabaseModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20616">
+              <caret line="905" column="13" selection-start-line="905" selection-start-column="13" selection-end-line="905" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3067#4627#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controller/Employee/PendingOrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setO</find>
+      <find>observer is se</find>
+      <find>success</find>
+      <find>sys</find>
+      <find>alert</find>
+      <find>getRe</find>
+      <find>get</find>
+      <find>restaurantViewIm</find>
+      <find>setIm</find>
+      <find>MenuSe</find>
+      <find>update</find>
+      <find>getM</find>
+      <find>system</find>
+      <find>addres</find>
+      <find>setres</find>
+      <find>createe</find>
+      <find>addRe</find>
+      <find>addca</find>
+      <find>getdeals</find>
+      <find>deleteing</find>
+      <find>ratin</find>
+      <find>55</find>
+      <find>5555</find>
+      <find>getMenui</find>
+      <find>text-f</find>
+      <find>colo</find>
+      <find>#ffffff</find>
+      <find>white</find>
+      <find>getDe</find>
+      <find>username and</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>black</replace>
+    </replaceStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bbe34d20-d082-4dfb-a620-e306b69841df/console.sql" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Objects/Users/Employee.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/Manager/manager_employees.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/View/Manager/manager_main.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/View/Manager/manager_menu_section_node.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Customer/MenuSectionNodeController.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/Manager/add_item_view.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Manager/AddEmployeeViewController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Visitor/RegistrationVisitor.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/Login/form_registration.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Visitor/RegistrationMailVisitor.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Customer/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/Cells/DealCell/DealCell.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Customer/IngredientNodeController.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/Nodes/ingredient_node.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Customer/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Login/RegisterController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Customer/RestaurantViewController.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/Cells/RestaurantCell/RestaurantCell.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Customer/RestaurantsController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Customer/MainController.java" />
+        <option value="$PROJECT_DIR$/src/sample/JFXOkayCancelDialog.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/Manager/manager_restaurant_view.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/View/Manager/add_employee_view.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Manager/AddItemController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Manager/ManagerEmployeeNodeController.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/Manager/manager_employee_node.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Manager/ManagerRestaurantsController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Visitor/LoginVisitor.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Manager/ManagerEmployeesController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Manager/ManagerRestaurantViewController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Objects/RestaurantComponents/Composite/Restaurant.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Employee/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Database/CheckOrderTask.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/Employee/pending_order_node.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/View/Employee/delivering_order_node.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/View/Employee/active_order_node.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/View/Customer/complaints.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Manager/ManagerMainController.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/Manager/complaints.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Manager/ManagerComplaintsController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Employee/PendingOrderController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Objects/RestaurantComponents/Order.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/Cells/OrderCell/OrderItem.java" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Database/DatabaseModel.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/Login/form_login.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/IngredientsPopUp.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Login/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Authentication.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller/Customer/ComplaintsController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Restaurant copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Restaurant copy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Restaurant copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Restaurant copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Restaurant copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Restaurant copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Restaurant copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Restaurant copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Restaurant copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Restaurant copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Restaurant copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Restaurant copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Restaurant copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Restaurant copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550914076132" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sample/View/Manager" />
+      <recent name="$PROJECT_DIR$/src/sample/restaurantCell" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sample/View/Manager" />
+      <recent name="$PROJECT_DIR$/src/sample/View/Customer" />
+      <recent name="$PROJECT_DIR$/src/sample/View/Login" />
+      <recent name="$PROJECT_DIR$/src/sample/Nodes" />
+      <recent name="$PROJECT_DIR$/src/sample/dealCell" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" singleton="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="Restaurant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1547544046256" duration="234000" />
+      <workItem from="1547594816063" duration="46000" />
+      <workItem from="1547664950393" duration="50000" />
+      <workItem from="1547666060223" duration="46000" />
+      <workItem from="1547666312590" duration="871000" />
+      <workItem from="1547728456562" duration="642000" />
+      <workItem from="1547731792992" duration="129000" />
+      <workItem from="1547836903497" duration="620000" />
+      <workItem from="1547980341730" duration="9000" />
+      <workItem from="1547989510846" duration="3080000" />
+      <workItem from="1548086604105" duration="205000" />
+      <workItem from="1548162053317" duration="240000" />
+      <workItem from="1548224598514" duration="7000" />
+      <workItem from="1548607186681" duration="128000" />
+      <workItem from="1549434064007" duration="453000" />
+      <workItem from="1549496392869" duration="1267000" />
+      <workItem from="1549532560525" duration="332000" />
+      <workItem from="1549533804665" duration="44680000" />
+      <workItem from="1549799806687" duration="96000" />
+      <workItem from="1549804783318" duration="290000" />
+      <workItem from="1549815270773" duration="954000" />
+      <workItem from="1549887393864" duration="274000" />
+      <workItem from="1549962257888" duration="126000" />
+      <workItem from="1549973699434" duration="170000" />
+      <workItem from="1550005004903" duration="298000" />
+      <workItem from="1550083126508" duration="15000" />
+      <workItem from="1550157889452" duration="83000" />
+      <workItem from="1550163828930" duration="435000" />
+      <workItem from="1550187166600" duration="1468000" />
+      <workItem from="1550228863642" duration="1178000" />
+      <workItem from="1550230829846" duration="1448000" />
+      <workItem from="1550232794495" duration="1697000" />
+      <workItem from="1550234647914" duration="1400000" />
+      <workItem from="1550236498531" duration="1114000" />
+      <workItem from="1550238814770" duration="1729000" />
+      <workItem from="1550241083528" duration="1651000" />
+      <workItem from="1550242916382" duration="361000" />
+      <workItem from="1550309969954" duration="886000" />
+      <workItem from="1550311923519" duration="638000" />
+      <workItem from="1550313501590" duration="1423000" />
+      <workItem from="1550314982020" duration="1782000" />
+      <workItem from="1550316843075" duration="405000" />
+      <workItem from="1550319419298" duration="1490000" />
+      <workItem from="1550321251115" duration="1463000" />
+      <workItem from="1550323158579" duration="1240000" />
+      <workItem from="1550329287775" duration="385000" />
+      <workItem from="1550331611768" duration="34000" />
+      <workItem from="1550338160733" duration="409000" />
+      <workItem from="1550356392573" duration="716000" />
+      <workItem from="1550357297746" duration="991000" />
+      <workItem from="1550359324842" duration="1137000" />
+      <workItem from="1550361637185" duration="1470000" />
+      <workItem from="1550363726518" duration="1725000" />
+      <workItem from="1550365549696" duration="1131000" />
+      <workItem from="1550394334090" duration="224000" />
+      <workItem from="1550396529412" duration="1121000" />
+      <workItem from="1550398115599" duration="1558000" />
+      <workItem from="1550400550884" duration="1583000" />
+      <workItem from="1550402589064" duration="832000" />
+      <workItem from="1550403777906" duration="1772000" />
+      <workItem from="1550405600296" duration="1730000" />
+      <workItem from="1550407436445" duration="1782000" />
+      <workItem from="1550409257380" duration="1468000" />
+      <workItem from="1550411071750" duration="600000" />
+      <workItem from="1550412119251" duration="1191000" />
+      <workItem from="1550414311658" duration="1782000" />
+      <workItem from="1550417407621" duration="1768000" />
+      <workItem from="1550419225621" duration="1506000" />
+      <workItem from="1550422191691" duration="1147000" />
+      <workItem from="1550425259273" duration="1818000" />
+      <workItem from="1550427159506" duration="1737000" />
+      <workItem from="1550429199875" duration="1793000" />
+      <workItem from="1550431229920" duration="1747000" />
+      <workItem from="1550433087299" duration="1742000" />
+      <workItem from="1550434935803" duration="1484000" />
+      <workItem from="1550436761187" duration="740000" />
+      <workItem from="1550500864501" duration="107000" />
+      <workItem from="1550507896726" duration="1719000" />
+      <workItem from="1550509662744" duration="610000" />
+      <workItem from="1550511048945" duration="1269000" />
+      <workItem from="1550513029219" duration="1092000" />
+      <workItem from="1550515265141" duration="1853000" />
+      <workItem from="1550517396101" duration="1409000" />
+      <workItem from="1550519555370" duration="1654000" />
+      <workItem from="1550521393403" duration="1707000" />
+      <workItem from="1550523445191" duration="1647000" />
+      <workItem from="1550525262275" duration="1783000" />
+      <workItem from="1550527092073" duration="715000" />
+      <workItem from="1550556446241" duration="1757000" />
+      <workItem from="1550558787282" duration="1419000" />
+      <workItem from="1550560708912" duration="1723000" />
+      <workItem from="1550562965847" duration="1126000" />
+      <workItem from="1550566352945" duration="1771000" />
+      <workItem from="1550568745453" duration="1546000" />
+      <workItem from="1550570602692" duration="1194000" />
+      <workItem from="1550572486353" duration="1698000" />
+      <workItem from="1550574389034" duration="1507000" />
+      <workItem from="1550577231228" duration="217000" />
+      <workItem from="1550583351799" duration="2016000" />
+      <workItem from="1550586215564" duration="1193000" />
+      <workItem from="1550589867866" duration="1109000" />
+      <workItem from="1550596486772" duration="1702000" />
+      <workItem from="1550598323548" duration="1764000" />
+      <workItem from="1550600875278" duration="347000" />
+      <workItem from="1550607913280" duration="1787000" />
+      <workItem from="1550609924207" duration="1762000" />
+      <workItem from="1550611970477" duration="1727000" />
+      <workItem from="1550613784348" duration="1444000" />
+      <workItem from="1550650033076" duration="39000" />
+      <workItem from="1550665460448" duration="708000" />
+      <workItem from="1550669291404" duration="1763000" />
+      <workItem from="1550680462344" duration="1155000" />
+      <workItem from="1550683303903" duration="1800000" />
+      <workItem from="1550685195433" duration="1588000" />
+      <workItem from="1550687011272" duration="1681000" />
+      <workItem from="1550688823774" duration="1760000" />
+      <workItem from="1550690648114" duration="1784000" />
+      <workItem from="1550695820570" duration="1752000" />
+      <workItem from="1550697634031" duration="1324000" />
+      <workItem from="1550704319235" duration="453000" />
+      <workItem from="1550704816343" duration="1441000" />
+      <workItem from="1550706762554" duration="749000" />
+      <workItem from="1550734523720" duration="156000" />
+      <workItem from="1550734689934" duration="723000" />
+      <workItem from="1550736200575" duration="99000" />
+      <workItem from="1550736588200" duration="800000" />
+      <workItem from="1550737659975" duration="104000" />
+      <workItem from="1550737836591" duration="1087000" />
+      <workItem from="1550743813665" duration="1780000" />
+      <workItem from="1550745676003" duration="1130000" />
+      <workItem from="1550750669216" duration="1196000" />
+      <workItem from="1550763955537" duration="1753000" />
+      <workItem from="1550765837735" duration="1769000" />
+      <workItem from="1550770021117" duration="1589000" />
+      <workItem from="1550772549163" duration="1690000" />
+      <workItem from="1550775675779" duration="1280000" />
+      <workItem from="1550777572543" duration="1549000" />
+      <workItem from="1550779388270" duration="912000" />
+      <workItem from="1550781299447" duration="1060000" />
+      <workItem from="1550783304606" duration="1449000" />
+      <workItem from="1550785139097" duration="254000" />
+      <workItem from="1550826641919" duration="1915000" />
+      <workItem from="1550828648181" duration="1131000" />
+      <workItem from="1550833411899" duration="2331000" />
+      <workItem from="1550836814409" duration="1683000" />
+      <workItem from="1550838641106" duration="1638000" />
+      <workItem from="1550840463509" duration="1676000" />
+      <workItem from="1550842757645" duration="1593000" />
+      <workItem from="1550844566178" duration="1782000" />
+      <workItem from="1550846421538" duration="1783000" />
+      <workItem from="1550848238346" duration="1744000" />
+      <workItem from="1550850061479" duration="1604000" />
+      <workItem from="1550855764290" duration="1786000" />
+      <workItem from="1550857769505" duration="1658000" />
+      <workItem from="1550859595178" duration="1645000" />
+      <workItem from="1550861442419" duration="1465000" />
+      <workItem from="1550863566133" duration="1512000" />
+      <workItem from="1550865419060" duration="1742000" />
+      <workItem from="1550867298488" duration="1085000" />
+      <workItem from="1550871433734" duration="1575000" />
+      <workItem from="1550873252733" duration="1309000" />
+      <workItem from="1550875066314" duration="1123000" />
+      <workItem from="1550877683978" duration="1753000" />
+      <workItem from="1550879497110" duration="1754000" />
+      <workItem from="1550881317159" duration="1345000" />
+      <workItem from="1550883301061" duration="1081000" />
+      <workItem from="1550885202679" duration="1528000" />
+      <workItem from="1550887030341" duration="1103000" />
+      <workItem from="1550888614056" duration="1754000" />
+      <workItem from="1550890518875" duration="1716000" />
+      <workItem from="1550892334365" duration="1773000" />
+      <workItem from="1550894182809" duration="1780000" />
+      <workItem from="1550896038925" duration="1752000" />
+      <workItem from="1550897860476" duration="1784000" />
+      <workItem from="1550899689276" duration="850000" />
+      <workItem from="1550903568744" duration="1519000" />
+      <workItem from="1550905398703" duration="1668000" />
+      <workItem from="1550907245475" duration="1727000" />
+      <workItem from="1550909074871" duration="1199000" />
+      <workItem from="1550911051128" duration="1245000" />
+      <workItem from="1550912871545" duration="1306000" />
+      <workItem from="1550915391810" duration="1459000" />
+      <workItem from="1550917212460" duration="1447000" />
+      <workItem from="1550920273252" duration="1080000" />
+      <workItem from="1551079090885" duration="124000" />
+      <workItem from="1551079317815" duration="80000" />
+      <workItem from="1552418830110" duration="1232000" />
+    </task>
+    <task id="LOCAL-00001" summary="Client Side completed. Order to restaurant handling left">
+      <created>1549799360634</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549799360634</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Manager side almost done, minor changes remain&#10;Added Visitor pattern&#10;Created Employee Dashboard, without style&#10;Created Manager View">
+      <created>1550612467559</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550612467559</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Organized Project">
+      <created>1550613366339</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1550613366339</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="268168000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.15814696" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3273632" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5424779" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3283186" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.32654867" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32566372" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32920355" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Duplicate detector" order="17" weight="0.32920355" />
+      <window_info anchor="bottom" id="Database Console" order="18" weight="0.32920355" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.15654951" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32960597" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="Client Side completed. Order to restaurant handlinf left" />
+    <MESSAGE value="Client Side completed. Order to restaurant handling left" />
+    <MESSAGE value="Manager side almost done, minor changes remain&#10;Added Visitor pattern&#10;Created Employee Dashboard, without style&#10;Created Manager View" />
+    <MESSAGE value="Organized Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organized Project" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/View/Manager/manager_add_restaurant_node.fxml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/View/Manager/add_restaurant_view.fxml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/View/Manager/add_employee_view.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="15" column="116" selection-start-line="15" selection-start-column="116" selection-end-line="15" selection-end-column="116" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Manager/AddItemIngredientViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Manager/AddItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1776">
+          <caret line="137" column="78" selection-start-line="137" selection-start-column="78" selection-end-line="137" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUpIngredientsVBox#0;class#AddItemController#0" />
+            <element signature="method#submitHandler#0;class#AddItemController#0" />
+            <element signature="method#addIngredient#0;class#AddItemController#0" />
+            <element signature="method#editImageHandler#0;class#AddItemController#0" />
+            <element signature="method#disableAddIngredients#0;class#AddItemController#0" />
+            <element signature="method#onIngredientAddedListener#0;class#AddItemController#0" />
+            <element signature="method#onIngredientDeletedListener#0;class#AddItemController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Manager/ManagerEmployeeNodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Manager/AddEmployeeViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+            <element signature="e#2014#2015#0" expanded="true" />
+            <element signature="method#initialize#0;class#AddEmployeeViewController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Manager/ManagerRestaurantsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="135" column="51" lean-forward="true" selection-start-line="135" selection-start-column="51" selection-end-line="135" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#displayRating#0;class#ManagerRestaurantsController#0" />
+            <element signature="method#loadAddRestaurantButton#0;class#ManagerRestaurantsController#0" />
+            <element signature="method#addHandler#0;class#ManagerRestaurantsController#0" />
+            <element signature="method#onRestaurantAddedListener#0;class#ManagerRestaurantsController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Objects/RestaurantComponents/Composite/Restaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="82" column="60" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Manager/ManagerRestaurantViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="106" column="37" selection-start-line="106" selection-start-column="37" selection-end-line="106" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#showCamera#0;class#ManagerRestaurantViewController#0" />
+            <element signature="method#hideCamera#0;class#ManagerRestaurantViewController#0" />
+            <element signature="method#setUpMenusAnchorPane#0;class#ManagerRestaurantViewController#0" />
+            <element signature="method#onItemDeletedListener#0;class#ManagerRestaurantViewController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Manager/ManagerEmployeesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="57" column="101" selection-start-line="57" selection-start-column="101" selection-end-line="57" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Customer/MenuSectionNodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="109" column="70" selection-start-line="109" selection-start-column="70" selection-end-line="109" selection-end-column="70" />
+          <folding>
+            <element signature="method#setMenuSection#0;class#MenuSectionNodeController#0" />
+            <element signature="method#initialize#0;class#MenuSectionNodeController#0" />
+            <element signature="method#loadAddRestaurantButton#0;class#MenuSectionNodeController#0" />
+            <element signature="method#onItemSubmittedListener#0;class#MenuSectionNodeController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Objects/RestaurantComponents/Composite/RestaurantLeaf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Objects/RestaurantComponents/Composite/RestaurantComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Visitor/LoginVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="46" column="68" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/View/Nodes/ingredient_node.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/View/Nodes/ingredients_popup.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/javafx.graphics/javafx/scene/paint/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="1216" column="7" lean-forward="true" selection-start-line="1216" selection-start-column="7" selection-end-line="1216" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Login/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1608">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/View/Employee/pending_order_node.fxml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/View/Employee/delivering_order_node.fxml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/View/Employee/active_order_node.fxml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/View/Customer/complaints.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2424">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/View/Manager/complaints.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Manager/ManagerMainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-548">
+          <caret line="142" column="88" selection-start-line="142" selection-start-column="88" selection-end-line="142" selection-end-column="88" />
+          <folding>
+            <element signature="method#managerLogoutHBoxHandler#0;class#ManagerMainController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Manager/ManagerComplaintsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bbe34d20-d082-4dfb-a620-e306b69841df/schema/Restaurant/table/Complaint" />
+    <entry file="das://bbe34d20-d082-4dfb-a620-e306b69841df/schema/Restaurant/table/Category" />
+    <entry file="das://bbe34d20-d082-4dfb-a620-e306b69841df/schema/Restaurant/table/Rating" />
+    <entry file="das://bbe34d20-d082-4dfb-a620-e306b69841df/schema/Restaurant/table/Restaurant" />
+    <entry file="das://bbe34d20-d082-4dfb-a620-e306b69841df/schema/Restaurant/table/Order" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Database/TrackOrderTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bbe34d20-d082-4dfb-a620-e306b69841df/schema/Restaurant/table/Menu" />
+    <entry file="das://bbe34d20-d082-4dfb-a620-e306b69841df/schema/Restaurant/table/Manager" />
+    <entry file="file://$PROJECT_DIR$/src/sample/View/Login/form_login.fxml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Objects/Users/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/View/Cells/OrderCell/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Employee/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2232">
+          <caret line="115" column="44" selection-start-line="115" selection-start-column="44" selection-end-line="115" selection-end-column="44" />
+          <folding>
+            <element signature="e#3861#3862#0" expanded="true" />
+            <element signature="e#3927#3928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Objects/RestaurantComponents/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2496">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+          <folding>
+            <element signature="method#getTotalPrice#0;class#Order#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bbe34d20-d082-4dfb-a620-e306b69841df/schema/Restaurant/table/Order_Items" />
+    <entry file="das://bbe34d20-d082-4dfb-a620-e306b69841df/schema/Restaurant/table/Customer" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Customer/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Customer/IngredientNodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/IngredientsPopUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+          <folding>
+            <element signature="method#IngredientsPopUp#0;class#IngredientsPopUp#0" />
+            <element signature="method#onToggleButtonChangeListener#0;class#IngredientsPopUp#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/View/Login/form_registration.fxml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Database/CheckOrderTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Database/DatabaseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20616">
+          <caret line="905" column="13" selection-start-line="905" selection-start-column="13" selection-end-line="905" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3067#4627#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Employee/PendingOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Login/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="63" column="50" lean-forward="true" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Authentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="208" column="9" lean-forward="true" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#encryptPassword#0;class#Authentication#0" />
+            <element signature="method#availableUsername#0;class#Authentication#0" />
+            <element signature="method#verifyEmployee#0;class#Authentication#0" />
+            <element signature="method#verifyManager#0;class#Authentication#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller/Customer/ComplaintsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="125" column="12" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>JavaFXApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Restaurant</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jfoenix-9.0.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

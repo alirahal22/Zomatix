@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Customer.IngredientNodeController">
+   <children>
+      <Label fx:id="ingredientNameLabel" layoutX="71.0" layoutY="19.0" prefHeight="23.0" prefWidth="139.0" text="Tomato" AnchorPane.bottomAnchor="18.0" AnchorPane.leftAnchor="71.0" AnchorPane.topAnchor="19.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <ImageView fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.030059814453125" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../Resources/images/ingredients/tomato.png" />
+         </image>
+      </ImageView>
+      <JFXToggleButton fx:id="ingredientToggleButton" mnemonicParsing="false" onAction="#ingredientToggleButtonHandler" text="On" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

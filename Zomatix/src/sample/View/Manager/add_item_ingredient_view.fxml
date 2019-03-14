@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="150.0" prefWidth="450.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Manager.AddItemIngredientViewController">
+   <children>
+      <Label layoutX="69.0" layoutY="51.0" text="Name:" />
+      <Label layoutX="70.0" layoutY="109.0" text="image" />
+      <TextField fx:id="nameTextField" layoutX="145.0" layoutY="46.0" />
+      <Button layoutX="206.0" layoutY="104.0" mnemonicParsing="false" onAction="#chooseImage" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 12;" text="Choose image" />
+      <Button layoutX="341.0" layoutY="104.0" mnemonicParsing="false" onAction="#addHandler" style="-fx-background-color: #5555ff;" text="Add" textFill="WHITE" />
+   </children>
+</AnchorPane>

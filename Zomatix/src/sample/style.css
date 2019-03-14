@@ -1,0 +1,75 @@
+.list-view .scroll-bar {
+    -fx-opacity: 0;
+    -fx-padding:-7;
+}
+
+/*Remove Listview Borders*/
+.list-view {
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+
+/*Disable list cell alternating colors*/
+.list-cell {
+-fx-background-color: -fx-control-inner-background; /* derive(-fx-control-inner-background,-5%); */
+}
+
+
+.scroll-pane .scroll-bar {
+    -fx-opacity: 0;
+    -fx-padding:-7;
+}
+
+#ratingButton {
+    -fx-border-radius: 15;
+    -fx-background-color: #DDDDDD;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#ratingButton:hover {
+    -fx-background-color: #1B333F;
+    -fx-background-insets: 0;
+}
+
+#orderClearButton {
+    -fx-border-radius: 15;
+    -fx-background-color: #DDDDDD;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#orderClearButton:hover {
+    -fx-background-color: #FE1704;
+    -fx-background-insets: 0;
+}
+
+#submitOrderButton {
+    -fx-border-radius: 15;
+    -fx-background-color: #DDDDDD;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#submitOrderButton:hover {
+    -fx-background-color: #FE1704;
+    -fx-background-insets: 0;
+}
+
+#addDealButton {
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-background-color: #FF0000;
+    -fx-text-fill: #ffffff;
+    -fx-background-insets: 0;
+    transition-duration: 0.4s;
+}
+
+#addDealButton:hover {
+    -fx-border-radius: 4;
+    -fx-border-color: #ff0000;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #ff0000;
+    -fx-background-insets: 0;
+}

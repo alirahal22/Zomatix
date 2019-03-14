@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" prefHeight="50.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Manager.AddItemIngredientNodeController">
+   <children>
+      <ImageView fitHeight="49.0" fitWidth="49.0" layoutX="14.0" layoutY="1.0" pickOnBounds="true" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="1.0">
+         <image>
+            <Image url="@../../Resources/images/ingredients/onion.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="84.0" layoutX="493.0" layoutY="5.0" onMouseClicked="#deleteHandler" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="3.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="3.0">
+         <image>
+            <Image url="@../../Resources/icons/delete.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="nameLabel" alignment="CENTER" layoutX="110.0" layoutY="3.0" prefHeight="43.0" prefWidth="295.0" text="Label" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

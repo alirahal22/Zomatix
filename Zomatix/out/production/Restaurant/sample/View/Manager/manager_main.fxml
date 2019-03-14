@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Manager.ManagerMainController">
+    <children>
+      <VBox fx:id="menuCustomerVbox" layoutY="7.0" maxWidth="200.0" minHeight="200.0" prefWidth="200.0" style="-fx-background-color: #E50D0D;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #E50D0D;">
+                    <children>
+                        <Circle fx:id="avatar" fill="#1b333f" layoutX="102.0" layoutY="92.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="20.0" />
+                  <Label fx:id="managerUsernameLabel" alignment="CENTER" layoutY="145.0" prefHeight="17.0" prefWidth="120.0" text="Label" textFill="WHITE" AnchorPane.bottomAnchor="18.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="145.0">
+                     <font>
+                        <Font name="Comic Sans MS" size="26.0" />
+                     </font>
+                  </Label>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="13.0" prefWidth="200.0" style="-fx-background-color: #1b333f;" />
+                <HBox fx:id="managerRestaurantsHBox" onMouseClicked="#managerRestaurantsHBoxHandler" prefHeight="80.0" prefWidth="200.0" style="-fx-padding: 10;">
+                    <children>
+                        <ImageView fx:id="restaurantsImageView" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../Resources/icons/restaurantLogo_white.png" />
+                            </image>
+                        </ImageView>
+                        <Label fx:id="restaurantLabel" alignment="CENTER" prefHeight="61.0" prefWidth="123.0" text="Restaurants" textFill="WHITE">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="15.0" />
+                     </font></Label>
+                    </children>
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </HBox>
+                <HBox fx:id="managerEmployeesHBox" onMouseClicked="#managerEmployeesHBoxHandler" prefHeight="80.0" prefWidth="200.0" style="-fx-padding: 10;">
+                    <children>
+                        <ImageView fx:id="employeesImageView" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../Resources/icons/employees_white.png" />
+                            </image>
+                        </ImageView>
+                        <Label fx:id="employeesLabel" alignment="CENTER" prefHeight="61.0" prefWidth="123.0" text="Employees" textFill="WHITE">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="15.0" />
+                     </font></Label>
+                    </children>
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </HBox>
+                <HBox fx:id="managerComplaintsHBox" onMouseClicked="#managerComplaintsHBoxHandler" prefHeight="80.0" prefWidth="200.0" style="-fx-padding: 10;">
+                    <children>
+                        <ImageView fx:id="complaintsImageView" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../Resources/icons/complain_white.png" />
+                            </image>
+                        </ImageView>
+                        <Label fx:id="complaintsLabel" alignment="CENTER" prefHeight="61.0" prefWidth="123.0" text="Complaints" textFill="WHITE">
+                            <font>
+                                <Font name="Avenir Next Bold" size="15.0" />
+                            </font></Label>
+                    </children>
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </HBox>
+                <HBox fx:id="managerAboutUsHBox" onMouseClicked="#managerAboutUsHBoxHandler" prefHeight="80.0" prefWidth="200.0" style="-fx-padding: 10;">
+                    <children>
+                        <ImageView fx:id="aboutUsImageView" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../Resources/icons/about_white.png" />
+                            </image>
+                        </ImageView>
+                        <Label fx:id="aboutUsLabel" alignment="CENTER" prefHeight="61.0" prefWidth="123.0" text="About Us" textFill="WHITE">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="15.0" />
+                     </font></Label>
+                    </children>
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </HBox>
+                <HBox fx:id="managerLogoutHBox" onMouseClicked="#managerLogoutHBoxHandler" prefHeight="80.0" prefWidth="200.0" style="-fx-padding: 10;">
+               <children>
+                  <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Resources/icons/logout.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="logoutLabel" alignment="CENTER" prefHeight="61.0" prefWidth="123.0" text="Logout" textFill="WHITE">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+            </children>
+        </VBox>
+      <AnchorPane fx:id="anchorPane" layoutX="200.0" maxHeight="700.0" minHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    </children>
+</AnchorPane>

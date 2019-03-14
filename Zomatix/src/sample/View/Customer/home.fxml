@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="homeAnchorPane" maxHeight="700.0" minHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Customer.HomeController">
+   <children>
+      <Label prefHeight="50.0" prefWidth="337.0" style="-fx-border-radius: 10; -fx-padding: 10 0 0 14;" text="Recommended Deals" textFill="#1b333f" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Helvetica Neue" size="28.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <ListView fx:id="topDealsListView" layoutX="1.0" layoutY="42.0" maxHeight="310.0" minHeight="310.0" orientation="HORIZONTAL" prefHeight="310.0" prefWidth="1000.0" style="-fx-border-color: #FFFFFF; -fx-padding: 0 0 0 7;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0" />
+      <Label prefHeight="54.0" prefWidth="379.0" style="-fx-border-radius: 10; -fx-padding: 0 0 0 14;" text="Top Rated Restaurant" textFill="#1b333f" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="360.0">
+         <font>
+            <Font name="Helvetica Neue" size="28.0" />
+         </font>
+      </Label>
+      <ListView fx:id="topRatedRestaurantsListView" layoutY="400.0" maxHeight="310.0" minHeight="310.0" orientation="HORIZONTAL" prefHeight="310.0" prefWidth="1000.0" style="-fx-border-color: #FFFFFF; -fx-padding: 0 0 0 7;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="410.0" />
+   </children>
+</AnchorPane>

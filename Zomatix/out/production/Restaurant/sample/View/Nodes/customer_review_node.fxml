@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Customer.CustomerReviewNodeController">
+   <children>
+      <AnchorPane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 0 1 0 0;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="customerReviewImageView" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../Resources/avatars/1.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label fx:id="customerReviewNameLabel" layoutX="127.0" layoutY="14.0" text="Lily Collins" AnchorPane.leftAnchor="108.0" AnchorPane.topAnchor="4.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="customerReviewRatingLabel" alignment="CENTER" layoutX="194.0" layoutY="28.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: #fe1704; -fx-background-radius: 2; -fx-border-radius: 2;" text="4.4">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="customerReviewLabel" alignment="TOP_LEFT" layoutX="108.0" layoutY="63.0" prefHeight="75.0" prefWidth="406.0" text="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum " wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="108.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="47.0" />
+      <HBox fx:id="customerReviewRatingHBox" layoutX="169.0" layoutY="259.0" AnchorPane.leftAnchor="108.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <ImageView fx:id="firstStarImageView" fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Resources/icons/star1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="secondStarImageView" fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Resources/icons/star1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="thirdStarImageView" fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Resources/icons/star1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="fourthStarImageView" fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Resources/icons/star1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="fifthStarImageView" fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Resources/icons/star1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <Label fx:id="customerReviewDateLabel" alignment="CENTER_RIGHT" layoutX="528.0" layoutY="19.0" text="Yesterday at 11:11" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="16.0" />
+      <Line endX="130.0" endY="98.0" startX="495.0" startY="98.0" />
+   </children>
+</AnchorPane>

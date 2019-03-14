@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="menuSectionAnchorPane" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Customer.MenuSectionNodeController">
+   <children>
+      <VBox fx:id="menuSectionVBox" maxHeight="-Infinity" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="menuCategoryLabel" maxWidth="1.7976931348623157E308" prefWidth="200.0" style="-fx-padding: 14 0 0 14;" text="Menu Category">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <FlowPane fx:id="menuItemsFlowPane" maxHeight="-Infinity" />
+         </children>
+      </VBox>
+      <Line endX="381.0" endY="43.0" startX="31.5" startY="43.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="24.0" AnchorPane.rightAnchor="24.0" />
+   </children>
+</AnchorPane>

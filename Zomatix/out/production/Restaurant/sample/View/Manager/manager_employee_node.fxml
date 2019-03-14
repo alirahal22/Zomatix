@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="189.0" prefWidth="250.0" style="-fx-border-color: black; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Manager.ManagerEmployeeNodeController">
+   <children>
+      <Label fx:id="usernameLabel" layoutX="21.0" layoutY="14.0" prefHeight="32.0" prefWidth="228.0" text="Username" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="16.0">
+         <font>
+            <Font name="Avenir Next Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameLabel" layoutX="19.0" layoutY="63.0" text="Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="emailLabel" layoutX="20.0" layoutY="109.0" text="Email">
+         <font>
+            <Font name="Apple Braille" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="32.0" fitWidth="66.0" layoutX="204.0" layoutY="14.0" onMouseClicked="#deleteHandler" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/icons/delete.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="phoneLabel" layoutX="21.0" layoutY="154.0" text="Phone">
+         <font>
+            <Font name="Apple Braille Outline 6 Dot" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

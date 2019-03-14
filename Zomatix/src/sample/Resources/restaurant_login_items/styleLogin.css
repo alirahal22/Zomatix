@@ -1,0 +1,92 @@
+
+.text-field {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: grey;
+    -fx-background-color: #333333;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-background-radius: 0;
+    -fx-text-fill: #dbdbdb;
+}
+.text-field:focused {
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: #333333;
+    -fx-text-fill: #dbdbdb;
+}
+
+.password-field {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: grey;
+    -fx-background-color: #333333;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-background-radius: 0;
+    -fx-text-fill: #dbdbdb;
+}
+.password-field:focused {
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: #333333;
+    -fx-text-fill: #dbdbdb;
+}
+
+#loginButton {
+    -fx-border-color: #ffddB5;
+    -fx-font-weight: bold;
+    -fx-background-color:
+        #000000,
+        linear-gradient(#cfad82, #ffddB5);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}
+#loginButton:Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+}
+
+#registerButton {
+    -fx-border-color: #ffddB5;
+    -fx-font-weight: bold;
+    -fx-background-color:
+        #000000,
+        linear-gradient(#cfad82, #ffddB5);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}
+#registerButton:Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+}
+
+#submitButton {
+    -fx-border-color: #ffddB5;
+    -fx-font-weight: bold;
+    -fx-background-color:
+            #000000,
+            linear-gradient(#cfad82, #ffddB5);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}
+#submitButton:Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+}
+
+#backButton {
+    -fx-border-color: #ffddB5;
+    -fx-font-weight: bold;
+    -fx-background-color:
+            #000000,
+            linear-gradient(#cfad82, #ffddB5);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}
+#backButton:Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.TilePane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="960.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Employee.EmployeeController">
+   <children>
+      <ScrollPane fx:id="pendingOrdersScrollPane" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="320.0" style="-fx-border-color: transparent;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <TilePane style="-fx-border-color: #ff0700" fx:id="pendingOrdersTilePane" hgap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefColumns="0" prefHeight="315.0" prefRows="1">
+               <opaqueInsets>
+                  <Insets bottom="3.0" left="7.0" right="3.0" top="3.0" />
+               </opaqueInsets></TilePane>
+         </content>
+      </ScrollPane>
+      <ScrollPane fx:id="activeOrdersScrollPane" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="320.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="320.0">
+         <content>
+            <TilePane style="-fx-border-color: #ff00d5" fx:id="activeOrdersTilePane" hgap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefColumns="0" prefHeight="315.0" prefRows="1">
+               <opaqueInsets>
+                  <Insets bottom="3.0" left="7.0" right="3.0" top="3.0" />
+               </opaqueInsets></TilePane>
+         </content>
+      </ScrollPane>
+      <ScrollPane fx:id="deliveringOrdersScrollPane" layoutX="10.0" layoutY="310.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="320.0" style="-fx-border-color: transparent;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="640.0">
+         <content>
+            <TilePane fx:id="deliveringOrdersTilePane" maxHeight="-Infinity" minHeight="-Infinity" prefColumns="0" prefHeight="315.0" prefRows="1" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

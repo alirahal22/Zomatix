@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="complaintsAnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Manager.ManagerComplaintsController">
+
+    <children>
+        <TableView fx:id="complaintsTableView" layoutX="8.0" layoutY="62.0" prefHeight="338.0" prefWidth="584.0" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="62.0">
+            <columns>
+                <TableColumn fx:id="fullnameTableColumn" prefWidth="103.0" text="fullname" />
+                <TableColumn fx:id="emailTableColumn" prefWidth="45.0" text="email" />
+                <TableColumn fx:id="subjectTableColumn" prefWidth="82.0" text="subject" />
+                <TableColumn fx:id="descriptionTableColumn" prefWidth="98.0" text="description" />
+                <TableColumn fx:id="numberOfCustomersTableColumn" minWidth="0.0" prefWidth="58.0" text="n#" />
+                <TableColumn fx:id="restaurantNameTableColumn" prefWidth="197.0" text="Restaurant" />
+            </columns>
+        </TableView>
+      <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="266.0" layoutY="27.0" text="Complaints" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="16.0">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+    </children>
+
+</AnchorPane>

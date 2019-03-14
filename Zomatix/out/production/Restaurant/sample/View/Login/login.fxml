@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1020.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Login.FormController">
+   <children>
+      <AnchorPane fx:id="formAnchorPane" layoutX="560.0" prefHeight="650.0" prefWidth="460.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="560.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <ImageView fx:id="formImageView" fitHeight="678.0" fitWidth="705.0" layoutX="-7.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-16.0" AnchorPane.leftAnchor="-7.0" AnchorPane.topAnchor="-12.0">
+         <image>
+            <Image url="@../../Resources/restaurant_login_items/login3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="exitImageButton" fitHeight="46.0" fitWidth="83.0" pickOnBounds="true" onMouseClicked="#closeLoginStage" preserveRatio="true" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="8.0">
+         <image>
+            <Image url="@../../Resources/icons/exit.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

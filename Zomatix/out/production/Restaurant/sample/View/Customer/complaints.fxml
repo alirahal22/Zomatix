@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="complaintsAnchorPane" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Customer.ComplaintsController">
+   <children>
+        <GridPane alignment="center" hgap="10" layoutX="150.0" prefHeight="547.0" prefWidth="640.0" vgap="10" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="0.0">
+            <padding>
+            <Insets bottom="40" left="40" right="40" top="40" />
+         </padding>
+            <columnConstraints>
+                <ColumnConstraints halignment="RIGHT" maxWidth="Infinity" minWidth="200.0" prefWidth="200.0">
+                </ColumnConstraints>
+                <ColumnConstraints hgrow="ALWAYS" maxWidth="Infinity" minWidth="350.0" prefWidth="350.0">
+                </ColumnConstraints>
+            </columnConstraints>
+
+                              <Label style="-fx-text-fill: black;" text="Submit a Complaint" textFill="#0ffff1" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.rowSpan="1">
+                <font>
+                    <Font name="Arial" size="24" />
+                </font>
+                <GridPane.margin>
+                    <Insets bottom="20" left="0" right="0" top="20" />
+                </GridPane.margin>
+            </Label>
+
+                  
+                  <Label style="-fx-text-fill: black;" text="Full Name : " textFill="#0ffff1" GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+            <TextField fx:id="fullNameTextField" cache="true" prefHeight="40" promptText="Your full name..." style="-fx-border-radius: 20; -fx-background-color: white; -fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+                              <Label style="-fx-text-fill: black;" text="Email : " textFill="#0ffff1" GridPane.columnIndex="0" GridPane.rowIndex="2">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+            <TextField fx:id="emailTextField" prefHeight="40" promptText="example@xchange.domain" style="-fx-border-radius: 20; -fx-background-color: white; -fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+                  
+                  <Label style="-fx-text-fill: black;" text="Complaint Subject:" textFill="#0ffff1" GridPane.columnIndex="0" GridPane.rowIndex="3">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+            <TextField fx:id="subjectTextField" prefHeight="40" promptText="Subject..." style="-fx-border-radius: 20; -fx-background-color: white; -fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            
+                              <Button fx:id="submitComplaintButton" defaultButton="true" onAction="#submitComplaintHandler" prefHeight="40" prefWidth="100" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 20;" text="Submit" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.rowSpan="1">
+                <GridPane.margin>
+                    <Insets bottom="20" left="0" right="0" top="20" />
+                </GridPane.margin>
+            </Button>
+         <Label style="-fx-text-fill: black;" text="Complaint Description:" textFill="#0ffff1" GridPane.rowIndex="4">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <Label style="-fx-text-fill: black;" text="Send to:" textFill="#0ffff1" GridPane.rowIndex="7">
+            <font>
+               <Font size="18.0" />
+            </font>
+         </Label>
+         <ComboBox fx:id="restaurantComboBox" prefHeight="30.0" prefWidth="350.0" promptText="Restaurant" style="-fx-background-color: white; -fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+         <TextArea fx:id="descriptionTextArea" prefHeight="180.0" prefWidth="350.0" promptText="Description here..." style="-fx-border-color: black; -fx-background-color: white;" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </TextArea>
+         <Label style="-fx-text-fill: black;" text="How many were you?" textFill="#0ffff1" GridPane.rowIndex="6">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <TextField fx:id="nbOfCustomersTextField" promptText="Number of customers..." style="-fx-border-radius: 20; -fx-background-color: white; -fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+        </GridPane>
+
+   </children>
+</AnchorPane>

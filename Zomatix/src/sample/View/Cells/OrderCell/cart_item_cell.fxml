@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root prefHeight="70.0" prefWidth="500.0" type="javafx.scene.control.ListCell" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<graphic>
+
+<AnchorPane maxHeight="60.0" maxWidth="500.0" minHeight="60.0" minWidth="500.0" prefHeight="60.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+            <children>
+                <ImageView fx:id="itemImageView" fitHeight="50.0" fitWidth="75.0" pickOnBounds="true" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="420.0" AnchorPane.topAnchor="5.0">
+                   <viewport>
+                      <Rectangle2D />
+                   </viewport>
+                   <image>
+                      <Image url="@../../../Resources/images/items/burger_and_fries.png" />
+                   </image>
+                </ImageView>
+                <Label fx:id="orderItemNameLabel" alignment="BOTTOM_LEFT" layoutX="108.0" layoutY="5.0" maxHeight="36.0" minHeight="15.0" prefHeight="36.0" prefWidth="117.0" text="item_name" textOverrun="CLIP" wrapText="true" AnchorPane.bottomAnchor="24.0" AnchorPane.leftAnchor="103.0" AnchorPane.topAnchor="0.0" />
+                <Label fx:id="pricePerItemLabel" layoutX="108.0" layoutY="23.0" maxHeight="15.0" minHeight="15.0" opacity="0.62" prefHeight="15.0" style="-fx-font-size: 12;" text="0.5$/piece" AnchorPane.leftAnchor="106.0" AnchorPane.topAnchor="32.0" />
+                <ImageView fx:id="minusImageView" fitHeight="16.0" fitWidth="16.0" layoutX="233.0" layoutY="22.0" onMouseClicked="#minusHandler" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="22.0" AnchorPane.leftAnchor="233.0" AnchorPane.topAnchor="22.0">
+                   <image>
+                      <Image url="@../../../Resources/icons/minus.png" />
+                   </image>
+                </ImageView>
+                <ImageView fx:id="plusImageView" fitHeight="16.0" fitWidth="16.0" layoutX="291.0" layoutY="22.0" onMouseClicked="#plusHandler" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="22.0" AnchorPane.leftAnchor="291.0" AnchorPane.topAnchor="22.0">
+                   <image>
+                      <Image url="@../../../Resources/icons/add.png" />
+                   </image>
+                </ImageView>
+                <Label fx:id="quantityLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="260.0" layoutY="20.0" maxHeight="20.0" maxWidth="20.0" minHeight="20.0" minWidth="20.0" prefHeight="20.0" prefWidth="20.0" text="0" textAlignment="JUSTIFY" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="260.0" AnchorPane.topAnchor="20.0" />
+                <Label fx:id="totalLabel" layoutX="387.0" layoutY="19.0" maxHeight="22.0" minHeight="22.0" prefHeight="22.0" text="0.0$" textFill="#478cba" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="387.0" AnchorPane.topAnchor="19.0" />
+
+                <ImageView fx:id="deleteImageView" fitHeight="10.0" fitWidth="10.0" layoutX="438.0" layoutY="30.0" onMouseClicked="#deleteItemHandler" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="450.0" AnchorPane.topAnchor="25.0">
+                   <image>
+                      <Image url="@../../../Resources/icons/delete.png" />
+                   </image>
+                </ImageView>
+                  <ImageView fx:id="customizeImageView" fitHeight="25.0" fitWidth="33.0" layoutX="332.0" layoutY="17.0" onMouseClicked="#customizeHandler" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Resources/icons/edit.png" />
+                     </image>
+                  </ImageView>
+            </children>
+</AnchorPane>
+</graphic>
+</fx:root>

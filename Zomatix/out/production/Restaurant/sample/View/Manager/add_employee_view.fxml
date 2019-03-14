@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Manager.AddEmployeeViewController">
+    <children>
+        <GridPane alignment="center" hgap="10" layoutX="150.0" prefHeight="547.0" prefWidth="640.0" vgap="10" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="0.0">
+            <padding>
+                <Insets bottom="40" left="40" right="40" top="40" />
+            </padding>
+            <columnConstraints>
+                <ColumnConstraints halignment="RIGHT" maxWidth="Infinity" minWidth="200.0" prefWidth="200.0">
+                </ColumnConstraints>
+                <ColumnConstraints hgrow="ALWAYS" maxWidth="Infinity" minWidth="350.0" prefWidth="350.0">
+                </ColumnConstraints>
+            </columnConstraints>
+
+            <Label text="Hire a New Employee" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.rowSpan="1">
+                <font>
+                    <Font name="Arial" size="24" />
+                </font>
+                <GridPane.margin>
+                    <Insets bottom="20" left="0" right="0" top="20" />
+                </GridPane.margin>
+            </Label>
+
+
+            <Label text="Employee Full Name:" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                <font>
+                    <Font size="15.0" />
+                </font>
+            </Label>
+            <TextField fx:id="fullNameTextField" cache="true" prefHeight="40" promptText="Your full name..." GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+            <Label text="Username:" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                <font>
+                    <Font size="15.0" />
+                </font>
+            </Label>
+            <TextField fx:id="usernameTextField" prefHeight="40" promptText="example@xchange.domain" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+
+            <Label text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                <font>
+                    <Font size="15.0" />
+                </font>
+            </Label>
+            <TextField fx:id="passwordField" prefHeight="40" promptText="Subject..." GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+            <Button fx:id="submit" defaultButton="true" onAction="#submitHandler" prefHeight="40" prefWidth="100" style="-fx-background-color: #5555ff;" text="Submit" textFill="WHITE" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.rowSpan="1">
+                <GridPane.margin>
+                    <Insets bottom="20" left="0" right="0" top="20" />
+                </GridPane.margin>
+            </Button>
+            <Label text="Send to:" GridPane.rowIndex="6">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Label>
+            <ComboBox fx:id="restaurantComboBox" prefHeight="30.0" prefWidth="350.0" promptText="Restaurant" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+         <Label text="Email" GridPane.rowIndex="4">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <TextField fx:id="emailTextField" prefHeight="40" prefWidth="350.0" promptText="Email..." GridPane.columnIndex="1" GridPane.rowIndex="4" />
+         <Label prefHeight="19.0" prefWidth="52.0" text="Phone" GridPane.rowIndex="5">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <TextField fx:id="phoneTextField" prefHeight="40" prefWidth="350.0" promptText="Phone..." GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <rowConstraints>
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+            </rowConstraints>
+        </GridPane>
+      <Button fx:id="submit1" defaultButton="true" layoutX="558.0" layoutY="407.0" onAction="#cancelHandler" prefHeight="40" prefWidth="100" style="-fx-background-color: #ff5555;" text="Cancel" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="558.0" AnchorPane.rightAnchor="342.0" AnchorPane.topAnchor="407.0" />
+    </children>
+
+</AnchorPane>
